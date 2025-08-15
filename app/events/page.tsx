@@ -1,11 +1,9 @@
 import { HeroBanner } from "../components/HeroBanner";
 
 const events = [
-  /*
   { title: "Event", description: "Brief description of the event.", date: "1/1/2025" },
   { title: "Event2", description: "Brief description of the event.", date: "1/1/2025" },
   { title: "Event3", description: "Brief description of the event.", date: "1/1/2025" },
-   */
 ];
 
 const EventCard = ({ title, description, date }: { title: string; description: string; date: string }) => (
