@@ -5,7 +5,7 @@ import { HeroBanner } from "../components/HeroBanner";
 const resources = [
   { title: "Cornell Lab", description: "Research and education institution dedicated to the study, appreciation, and protection of birds.", link: "https://www.birds.cornell.edu/home/" },
   { title: "Audubon", description: "Non-profit organization dedicated to the conservation of birds and their habitats through education and advocacy. It is one of the oldest and largest bird conservation organizations in the Americas.", link: "https://www.audubon.org/" },
-  { title: "Resource Title 3", description: "Brief description of the resource. This can include what it is about and why it's useful.", link: "#" },
+  { title: "Tung Tung Tung", description: "Brief description of the resource. This can include what it is about and why it's useful.", link: "#" },
 ];
 
 const ResourceCard = ({ title, description, link }: { title: string; description: string; link: string }) => (
