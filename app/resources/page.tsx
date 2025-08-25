@@ -5,7 +5,7 @@ import { HeroBanner } from "../components/HeroBanner";
 const resources = [
   { title: "Cornell Lab", description: "Research and education institution dedicated to the study, appreciation, and protection of birds.", link: "https://www.birds.cornell.edu/home/" },
   { title: "Audubon", description: "Non-profit organization dedicated to the conservation of birds and their habitats through education and advocacy. It is one of the oldest and largest bird conservation organizations in the Americas.", link: "https://www.audubon.org/" },
-  { title: "Tung Tung Tung", description: "Brief description of the resource. This can include what it is about and why it's useful.", link: "#" },
+  { title: "Birdcast", description: "Provides real-time predictions of bird migrations in the US, including when, where, and how far they fly. ", link: "https://birdcast.info" },
 ];
 
 const ResourceCard = ({ title, description, link }: { title: string; description: string; link: string }) => (
