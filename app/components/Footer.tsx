@@ -19,7 +19,7 @@ export const Footer = () => (
                     </a>
 
                     <a
-                        href="https://www.instagram.com/tj.birdandwildlife"
+                        href="https://www.facebook.com/profile.php?id=61579183964090e"
                         target="_blank"
                         rel="noopener noreferrer"
                        > 
