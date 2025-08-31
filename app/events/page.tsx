@@ -1,7 +1,7 @@
 import { HeroBanner } from "../components/HeroBanner";
 
 const events = [
-  { title: "Event", description: "Brief description of the event.", date: "1/1/2025" },
+  { title: "Intro Presentation", description: "Introduction to the club and some common birds in the area.", date: "9/5/2025" },
   { title: "Event2", description: "Brief description of the event.", date: "1/1/2025" },
   { title: "Event3", description: "Brief description of the event.", date: "1/1/2025" },
 ];
