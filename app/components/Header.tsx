@@ -9,7 +9,7 @@ const navLinks = [
   { href: "/scrapbook", label: "Scrapbook" },
   { href: "/presentation", label: "Presentations" },
   { href: "/resources", label: "Resources" },
-  // { href: "/checklist", label: "Checklist" },
+  // { href: "/checklist", label: "Checklist" }, 
 ];
 
 export const Header = () => {
