@@ -6,11 +6,11 @@ import { HeroBanner } from "./components/HeroBanner";
 import { SectionTitle } from "./components/SectionTitle";
 
 const teamMembers = [
-  { name: "James Lee", role: "President", imageUrl: "https://cdn.discordapp.com/attachments/1285997770640986113/1405335149406847190/IMG_2788.jpg?ex=689e73d9&is=689d2259&hm=93ef9fa4678dd3ff1b893d1274ac5f69253901b7fd34571a4e2cb4cc07142165&" },
+  { name: "James Lee", role: "President", imageUrl: "https://github.com/Hyper-caffeinated/nextjs-blog/blob/main/images/jamahes.jpg?raw=true" },
   { name: "Peter Le", role: "Social Media Manager", imageUrl: "https://media.discordapp.net/attachments/1285997770640986113/1405334897278582855/IMG_7623.jpg?ex=689e739d&is=689d221d&hm=38c397d9ab86f5ab083bc9e0749b9b5404bf9b9274552bd5012808983642d38e&=&format=webp&width=663&height=884" },
-  { name: "Chris Yang", role: "Game Dev", imageUrl: "https://media.discordapp.net/attachments/1285997770640986113/1405334896842637423/IMG_8118.jpg?ex=689e739d&is=689d221d&hm=e3205318b42749ac8b19ce35199988c62189837fdfffd9515c29da9ca79c9d14&=&format=webp&width=663&height=884" },
+  { name: "Chris Yang", role: "Game Dev", imageUrl: "https://github.com/Hyper-caffeinated/nextjs-blog/blob/main/images/chrisy.png?raw=true" },
   { name: "Matthew Bu", role: "Senior Tech Manager", imageUrl: "https://placehold.co/300x300/d1c7b7/5c5243?text=Matthew+B." },
-  { name: "Thomas Crosno", role: "Junior Web Dev", imageUrl: "https://cdn.discordapp.com/attachments/1285997770640986113/1405333116687745065/IMG_8186.png?ex=689e71f4&is=689d2074&hm=f6455dbe38b821b1514bba780d53b62f80642697aafb78acce7a5d2b01d6ce8c&" },
+  { name: "Thomas Crosno", role: "Junior Web Dev", imageUrl: "https://github.com/Hyper-caffeinated/nextjs-blog/blob/main/images/thomar.png?raw=true" },
 ];
 
 const MemberCard = ({ name, role, imageUrl }: { name: string; role: string; imageUrl: string }) => (
