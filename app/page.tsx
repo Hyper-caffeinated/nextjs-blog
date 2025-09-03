@@ -7,7 +7,7 @@ import { SectionTitle } from "./components/SectionTitle";
 
 const teamMembers = [
   { name: "James Lee", role: "President", imageUrl: "https://github.com/Hyper-caffeinated/nextjs-blog/blob/main/images/jamahes.jpg?raw=true" },
-  { name: "Peter Le", role: "Social Media Manager", imageUrl: "https://media.discordapp.net/attachments/1285997770640986113/1405334897278582855/IMG_7623.jpg?ex=689e739d&is=689d221d&hm=38c397d9ab86f5ab083bc9e0749b9b5404bf9b9274552bd5012808983642d38e&=&format=webp&width=663&height=884" },
+  { name: "Peter Le", role: "Social Media Manager", imageUrl: "https://github.com/Hyper-caffeinated/nextjs-blog/blob/main/images/stupid%20ahh%20viet.png?raw=true" },
   { name: "Chris Yang", role: "Game Dev", imageUrl: "https://github.com/Hyper-caffeinated/nextjs-blog/blob/main/images/chrisy.png?raw=true" },
   { name: "Matthew Bu", role: "Senior Tech Manager", imageUrl: "https://placehold.co/300x300/d1c7b7/5c5243?text=Matthew+B." },
   { name: "Thomas Crosno", role: "Junior Web Dev", imageUrl: "https://github.com/Hyper-caffeinated/nextjs-blog/blob/main/images/thomar.png?raw=true" },
@@ -38,7 +38,7 @@ const AboutSection = () => (
             Welcome to the TJ BAWC!
           </p>
           <p className="text-stone-600 mb-6 text-lg leading-relaxed">
-            Placeholder (maybe link socials here as well)
+            Come visit us Friday 8A to go birdwatching and learn more about the wildlife around you!
           </p>
         </div>
       </div>
