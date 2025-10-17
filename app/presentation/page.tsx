@@ -61,7 +61,7 @@ const PresentationTable = ({ presentations }: { presentations: Presentation[] })
 const UpcomingSection = ({ presentations }: { presentations: Presentation[] }) => (
   <section id="upcoming" className="pt-10 pb-20 bg-stone-100">
     <div className="container mx-auto px-6">
-      <SectionTitle>Upcoming Presentations</SectionTitle>
+      <SectionTitle>Upcoming</SectionTitle>
       <PresentationTable presentations={ presentations } />
     </div>
   </section>
@@ -70,7 +70,7 @@ const UpcomingSection = ({ presentations }: { presentations: Presentation[] }) =
 const ArchiveSection = ({ presentations }: { presentations: Presentation[] }) => (
   <section id="archive" className="py-20 bg-white">
     <div className="container mx-auto px-6">
-      <SectionTitle>Archived Presentations</SectionTitle>
+      <SectionTitle>Archived</SectionTitle>
       <PresentationTable presentations={ presentations } />
     </div>
   </section>
