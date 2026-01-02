@@ -25,6 +25,33 @@ jobs:
       - name: Setup Node
         uses: ./.github/workflows/setup-node
 
+      - name: Debug
+        run: |
+          echo "-Root directory"
+          ls -la
+          echo ""
+          echo "-Check for out directory"
+          if [ -d "out" ]; then
+            echo "out directory EXISTS"
+            ls -la out
+          else
+            echo "out directory DOES NOT EXIST"
+          fi
+          echo ""
+          echo "-Checking for .next directory"
+          if [ -d ".next" ]; then
+            echo ".next directory EXISTS"
+            ls -la .next
+          else
+            echo ".next directory DOES NOT EXIST"
+          fi
+          echo ""
+          echo "-Package.json check"
+          cat package.json
+          echo ""
+          echo "-Next config check"
+          cat next.config.ts || cat next.config.mjs || cat next.config.js || echo "No config file found"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
