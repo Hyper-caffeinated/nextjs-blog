@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Instagram, Facebook } from 'lucide-react';
+import { Instagram, Facebook, mail } from 'lucide-react';
 
 export const Footer = () => (
     <div className="bg-gray-50 w-full flex md:flex-row flex-col justify-center items-center p-2">
@@ -24,6 +24,12 @@ export const Footer = () => (
                         rel="noopener noreferrer"
                        > 
                         <Facebook className="text-base cursor-pointer text-stone-800 hover:text-emerald-800 transition-colors duration-300" />
+                    </a>
+
+                    <a
+                        href="mailto:tjbawc@gmail.com"
+                       > 
+                        <mail className="text-base cursor-pointer text-stone-800 hover:text-emerald-800 transition-colors duration-300" />
                     </a>
                 </div>
             </ul>
